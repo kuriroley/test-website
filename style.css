@@ -1,19 +1,30 @@
 *{
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
-
+img{
+    
+}
 body {
     background-color: skyblue;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-container{
     display: flex;
     justify-content: space-around;
     background-color: white;
+    border-radius: 2px;
 }
 .header-search{
     display: flex;
     align-items: center;
+}
+.navigation{
+    display: flex;
 }
 form{
     background-color: gray;
@@ -39,6 +50,7 @@ input{
 }
 .logo{
     align-items: flex-start;
+
 }
 #search-button{
     display: flex;
@@ -48,4 +60,6 @@ input{
     height: 30px;
     border-radius: 5px;
     opacity: 0.9;
+    margin-right: 5px;
+    border: 1px solid black;
 }
