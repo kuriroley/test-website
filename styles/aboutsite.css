@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: large;
 }
 
 body{
@@ -16,26 +17,46 @@ body{
     justify-content: center;
     padding: 20px;
     margin: 20px;
+    box-shadow: 
+    10px 10px 3px black;
 }
-
-.main-container p{
-     
-}
-
 
 .button-container{
-    height: max-content;
+    height: 250px;
     display: flex;
     justify-content: center;
+    align-items: end;
+}
+
+.return-button{
+    background-color: rgb(27, 17, 3);
+    font-size: large;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: inset
+    1px 2px 1px rgb(40, 65, 40),
+    1px 2px 1px rgb(38, 58, 38);
+}
+.return-button:hover{
+    background-color: rgb(56, 38, 7);
+    color: white;
+    transition: 0.8s;
+    box-shadow: inset 1px 2px 2px rgb(56, 38, 1),
+    20px 10px 10px rgb(99, 38, 12);
+    
 }
 .aboutsite-footer{
     display: flex;
     position: fixed;
-    background-color: antiquewhite;
+    background-color:burlywood;
     right: 0;
     bottom: 0;
     height: 100%;
     padding: 20px;
     writing-mode: sideways-lr;
     justify-content: center;
+    box-shadow: 
+    -6px 10px 1px black;
 }
