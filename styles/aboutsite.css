@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(236, 70, 70)
+}
+
+.main-container{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main-container p{
+     
+}
+
+
+.button-container{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.aboutsite-footer{
+    display: flex;
+    position: fixed;
+    background-color: antiquewhite;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    padding: 20px;
+    writing-mode: sideways-lr;
+    justify-content: center;
+}
