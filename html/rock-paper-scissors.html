@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper And Scissors Game!</title>
+    <link rel="stylesheet" href="/styles/rps.css">
 </head>
-<body>
-    
+<body> 
+    <div class="header">
+        <div class="text-container">
+            This is a game of rock paper and scissors!
+            You have to beat the computer,
+            can you do it?
+        </div>
+        <div class="return-button-container">
+            <a href="../index.html"><button class="return-button"> Return to main page</button></a>
+        </div>
+    </div>
 
-    <a href="../index.html"><button class="return-button"> Return to main page</button></a>
+    <div class="game-container">
+        <canvas id='game-canvas' width="800" height="600">
+           A game screen that displays a round of rock, paper and scissors.
+        </canvas>
+    </div>
+
+    <footer class="rps-footer">
+        <p class="footer-text">
+            2023 all rights and lefts are reserved. 
+        </p>
+    </footer>
+    
 </body>
+<script src="/scripts/rps.js"></script>
 </html>
