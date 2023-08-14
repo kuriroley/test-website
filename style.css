@@ -12,7 +12,7 @@
     border-radius: 10%;
 }
 body {
-    background-color: rgba(88, 3, 3, 0.76);
+    background-color: rgb(236, 70, 70);
 }
 .header-container{
     display: flex;
@@ -39,7 +39,6 @@ body {
     display: flex;
     gap: 50px;
     align-items: center;
-    
 }
 .navigation a{
    text-decoration: none;
@@ -48,7 +47,6 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    
     transition: background-color 0.5s;
 }
 .navigation-item:hover{
@@ -107,7 +105,7 @@ input{
 .login > button{
     padding: 5px 30px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     color: rgb(0, 0, 0);
     background: rgb(252, 227, 227);
     box-shadow: 
@@ -128,7 +126,7 @@ input{
 .register > button{
     padding: 5px 30px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     color: black;
     box-shadow: inset 0 5px 10px blue,
     0 1px 1px white;
@@ -140,7 +138,8 @@ input{
 }
 
 .container{
-    margin-top: 20px;
+    margin-top: 60px;
+    min-height: 100%;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
@@ -154,36 +153,56 @@ input{
     inset 0 10px rgba(255,255,255,0.2),
     inset 0 10px 20px rgba(255,255,255,0.25),
     inset 0 -15px 30px rgba(0,0,0,0.3);
-    background: rgba(199, 149, 173, 0.883);
+    background: rgba(157, 76, 76, 0.883);
 }
 .main-panel{
  flex: 1;
- 
 }
-
 .picture-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .picture-container img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.picture-container img:hover{
+    opacity: 1;
+    box-shadow: 10px 20px 10px rgba(74, 3, 3, 0.587);
+    transition: 0.4s;
 }
 .mid-dialog-container{
     display: flex;
     align-self: center;
-    border: 3px solid rgb(223, 209, 208);
+    border: 2px solid rgb(223, 209, 208);
     border-radius: 5px;
-    width: 300px;
-    height: 50px;
-    color: white;
+    padding: 15px;
+    width: 200px;
+    height: 70px;
+    color: rgb(253, 253, 253);
     box-shadow:
     0 2px 6px rgba(0,0,0,0.5),
     inset 0 1px rgba(255,255,255,0.3),
     inset 0 10px rgba(255,255,255,0.2),
     inset 0 10px 20px rgba(255,255,255,0.25),
     inset 0 -15px 30px rgba(0,0,0,0.3);
-    background: rgba(199, 149, 173, 0.883);
+    background: rgba(61, 41, 51, 0.883);
+}
+
+.index-footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    justify-content: center;
+}
+.footer-text{
+    align-self: center;
 }
 

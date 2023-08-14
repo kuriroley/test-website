@@ -12,11 +12,12 @@ body{
 }
 .text-container{
     box-shadow: 10px 20px 1px rgb(56, 38, 7);
+    border-radius: 6px;
     color: white;
     padding: 10px;
     margin: 5px;
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 450px;
     background-color: rgb(29, 2, 2);
 }
 .text-container > p{
@@ -33,7 +34,7 @@ body{
     color: white;
     border: 1px solid black;
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 6px;
     box-shadow: inset
     1px 2px 1px rgb(40, 65, 40),
     1px 2px 1px rgb(38, 58, 38);
