@@ -21,15 +21,15 @@ body {
     border-radius: 20px;
     border: 1px solid rgb(0,0,0,0.5);
     padding: 10px;
-    max-width: 1000%;
+    max-width: 100%;
     box-shadow:
     0 2px 6px rgba(0,0,0,0.5),
     inset 0 1px rgba(255,255,255,0.3),
     inset 0 10px rgba(255,255,255,0.2),
     inset 0 10px 20px rgba(255,255,255,0.25),
     inset 0 -15px 30px rgba(0,0,0,0.3);
-    background: rgba(255,255,255,0.25);
-
+    background: rgba(132, 7, 7, 0.068);
+    flex-wrap: wrap;
 }
 .header-search{
     display: flex;
@@ -44,13 +44,19 @@ body {
    text-decoration: none;
 }
 .navigation-item{
+    padding: 5px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     list-style: none;
-    transition: background-color 0.5s;
+    color: white;
+    background-color: rgba(52, 14, 3, 0.996);
+    box-shadow: inset 1px 5px 8px rgb(77, 15, 7);
 }
 .navigation-item:hover{
-    background-color: goldenrod;
+    background-color: brown;
+    transition: 0.7s;
+    box-shadow: 6px 6px 5px rgb(62, 52, 10);
 }
 form{
     background-color: rgba(128, 128, 128, 0.521);
@@ -89,8 +95,7 @@ input{
     opacity: 0.9;
     margin-right: 10px;
     font-size: smaller;
-    box-shadow: inset 0px 2px 3px gray,
-    0px 2px 3px gray;
+    
 }
 .search-button:hover{
     transition: background-color 0.2s;
@@ -112,7 +117,6 @@ input{
     inset 0 5px 10px rgb(58, 17, 10),
     0 1px 1px rgb(60, 37, 7);
     text-shadow: 0 1px 1px rgb(255, 222, 222);
-
 }
 .login > button:hover{
     transition: background-color 0.5s;
@@ -138,7 +142,7 @@ input{
 }
 
 .container{
-    margin-top: 60px;
+    margin-top: 50px;
     min-height: 100%;
     border: 1px solid black;
     display: flex;
