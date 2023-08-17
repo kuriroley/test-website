@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title-container{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.title-container p{
+    align-self: center;
+    color: black;
+}
+.game-container{
+    display: flex;
+    background-color: rgb(219, 219, 195);
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+}
+.game-container .etch-container{
+    align-self: center;
+    height: 400px;
+    width: 400px;
+    border: 4px inset rgb(128, 106, 106);
+}
