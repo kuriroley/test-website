@@ -1,13 +1,22 @@
-const etchContainer = document.getElementById('etch-container');
+const etchContainer = document.querySelector('.etch-container');
+etchContainer.style.gridTemplateRows = `repeat(16,1fr)`;
+etchContainer.style.gridTemplateColumns = `repeat(16,1fr)`;
 
-function tileGenerator(row, column){
-    for (let i = 0; i < row ; i++){
-        for (let j = 0; j < column; j++){
-        const tile = document.createElement('div');
-        tile.classList.add('tile');
-        etchContainer.appendChild(tile);
-        }
-    }
+for(let i = 0; i < 16 * 16; i++){
+
+
+    const tile = document.createElement('div');
+    etchContainer.appendChild(tile);
+    tile.style.backgroundColor = 'white';
+    tile.addEventListener('mouseover', ()=>{
+        tile.style.backgroundColor = 'black';
+    })
+
 }
-tileGenerator(16,16);
+
+
+
+
+
+
 
